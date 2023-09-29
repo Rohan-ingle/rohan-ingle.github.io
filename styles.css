@@ -18,8 +18,8 @@
     z-index: -1;
     opacity: 1;
     transform: translateZ(0);
-    filter: blur(10px);
-    filter: brightness(0.9);
+    filter: blur(13px);
+    filter: brightness(0.75);
 }
 
 
