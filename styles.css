@@ -20,7 +20,7 @@
     z-index: -1;
     opacity: 1;
     transform: translateZ(0);
-    filter: blur(15px);
+    filter: blur(20px);
     filter: brightness(0.85);
 }
 
