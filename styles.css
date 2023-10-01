@@ -22,7 +22,7 @@
     transform: translateZ(0);
     /* filter: blur(10px) brightness(0.89); */
     object-fit: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: none; /* Remove any border */
     outline: none;
 }
