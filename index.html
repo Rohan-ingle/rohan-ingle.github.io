@@ -55,15 +55,15 @@
             <div class = "social-media-container">
                 <img src="assets\linkedin.png" 
                 class="icon"
-                onclick="location.href='https://www.linkedin.com/in/rohan-ingle-b1b457249/'">
+                onclick="window.open('https://www.linkedin.com/in/rohan-ingle-b1b457249/', '_blank')">
 
                 <img src="assets\github.png" 
                 class="icon"
-                onclick="location.href='https://github.com/rohan-ingle'">
-
+                onclick="window.open('https://github.com/rohan-ingle', '_blank')">
+                
                 <img src="assets\instagram.png" 
                 class="icon"
-                onclick="location.href='https://instagram.com/steam_notapro/'">
+                onclick="window.open('https://instagram.com/steam_notapro/', '_blank')">
 
                 <img src="assets\mail.png" 
                 class="icon"
@@ -190,32 +190,36 @@
         <div class="card-container">
             <div class="card">
                 <div class="front">
-                    <!-- <img src=""> -->
+                    <img src="assets/ken.jpg" alt="theme of ken">
                 </div>
                 <div class="back">
-                    <h1>Description</h1>
-                    <p> </p>
-                    <button onclick="window.open('','_blank')"></button>
+                    <iframe src="https://open.spotify.com/embed/track/37lG9VX6XdOSTxQaywTrgt?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <!-- <button onclick="window.open('','_blank')"></button> -->
                 </div>
             </div>
+
             <div class="card">
                 <div class="front">
-                    <img src="" alt="">
+                    <img src="assets/mexico.png" alt="mexico by shotgun willy">
                 </div>
                 <div class="back">
-                    <h1>Description</h1>
-                    <p> </p>
-                    <button onclick="window.open('','_blank')"></button>
+                    <!-- <h1>Description</h1> -->
+                    <iframe src="https://open.spotify.com/embed/track/56KAsTLcOQIVrcbfHrTua4?utm_source=generator&theme=0" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <!-- <button onclick="window.open('','_blank')"></button> -->
                 </div>
             </div>
+
             <div class="card">
                 <div class="front">
-                    <img src="" alt="">
+                    <img id="special-image" src="assets/questionmark.png" alt="mystery banner">
                 </div>
-                <div class="back">
-                    <h1>Description</h1>
-                    <p> </p>
-                    <button onclick="window.open('','_blank')"> </button>
+                <div class="back" id="mystery">
+                    <h1>Mystery Song</h1>
+                    <button id="playButton">Song</button>
+                    <audio id="audioPlayer">
+                        <source src="assets/mystery_song.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </div>
             </div>
         </div>
